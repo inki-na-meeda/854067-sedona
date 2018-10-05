@@ -1,0 +1,435 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+.site-navigation {
+  list-style: none;
+}
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover {
+  color: #81b3d2;
+}
+
+.site-navigation a:focus {
+  color: #b2b2b2;
+}
+
+.site-navigation a:active {
+  color: #918279;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+.advertisement {
+  position:middle;
+  
+  background-image: url("../img/intro-mask.svg"), url("../img/background-photo.jpg");
+  background-position: center bottom, center top;
+  background-repeat: no-repeat;
+  
+}
+
+.appeal b {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.appeal p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #333333;
+}
+
+
+.features-list h3,
+.services h3 {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.features-list p,
+.services p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.feature-item-blog-1 {
+  color: #ffffff;
+  
+  background-color: #81b3d1;
+}
+
+.feature-item-blog-2 {
+  background-color: #eeeeee;
+}
+
+.feature-item-blog-2 p {
+  color: #333333;
+  
+  background-color: #eeeeee;
+}
+
+.service-item {
+  list-style: none;
+  
+  background-color: transparent;
+}
+
+.house {
+  background-image: url("../img/icon-1.svg");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.food {
+  background-image: url("../img/icon-2.svg");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.souvenirs {
+  background-image: url("../img/icon-3.svg");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.hotel-search b {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.hotels-info {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.hotel-search a {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  
+  background-color: #766357;
+}
+
+.hotel-search a:hover {
+  color: #ffffff;
+  
+  background-color: #604e43;
+}
+
+.hotel-search a:focus {
+  color: #ffffff;
+  
+  background-color: #503e33;
+}
+
+.hotel-search p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.data-item input {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.data-item input::placeholder {
+    color: #000000;
+}
+
+.data-item input :hover {
+  background-color: #ebebeb
+}
+
+.data-item input :focus {
+  background-color: transparent;
+  border: 2px solid #e5e5e5;
+}
+
+.calendsr-icon {
+  fill: #cacaca;
+  border: none;
+  background-color: transparent;
+}
+
+.calendsr-icon :hover {
+  fill: #000000;
+}
+
+.calendsr-icon :focus {
+  fill: #98c1da;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  border: none;
+}
+
+.button:hover {
+  background-color: #669ec0;
+}
+.button:focus {    
+  background-color: #5496bd;
+}
+
+.VisitSedona {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  
+  text-align: left;
+  /*(text-align не применяется)*/
+}
+
+.main-footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+.social-button {
+  color: #ffffff;
+  
+  background-color: #81b3d2;
+}
+
+.social-button:hover {
+  background-color: #669ec0;
+}
+.social-button:focus {    
+  background-color: #5496bd;
+}
+
+.footer-copyright a {
+  color: #000000;
+  fill: #000000;
+}
+
+.footer-copyright :hover {
+  fill: #98c1da;
+}
+
+.footer-copyright :focus {
+  fill: #cccccc;
+}
+
+.inner-page {
+  /*font-weight: normal;*/
+  /*не задаётся для всей страницы*/
+  text-align: left;
+
+}
+
+.filters {
+  color: #ffffff;
+  
+  background-image: url("../img/inner-background-photo.jpg");
+  background-color: #527da0;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.filters h2 {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filters ul,
+.input-prices {
+  list-style: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.filters input {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  
+  background-color: transparent;
+  border: none;
+}
+
+.prices-from,
+.prices-up {
+  border: 2px solid #ffffff;
+}
+
+.filters input::placeholder {
+  color: #ffffff;
+}
+
+.button-show {
+  
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.button-show:hover {
+  color:#000000;
+  
+  background-color: #ffffff;
+}
+
+.found h2 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.found {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.found ul {
+  list-style: none;
+}
+
+.criterion a {
+  color: #918279;
+  border-bottom: 2px dotted #918279;
+}
+
+.criterion a:hover {
+  color: #89b8d5;
+  border-bottom: 2px dotted #89b8d5;
+}
+
+.criterion a:focus {
+  color: #000000;
+  border-bottom: none;
+}
+
+.found-list h3 a {
+  color: #000000;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.found-list h3 a:hover {
+  color: #81b3d2;
+}
+
+.found-list h3 a:focus {
+  color: #b2b2b2;
+}
+
+.accommodation-found span {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.button-in-detail {
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: #81b3d2;
+}
+
+.button-in-detail:hover {
+  background-color: #669dc0;
+}
+
+.button-in-detail:focus {
+  background-color: #5495bd;
+}
+
+.button-reservation {
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: #756357;
+}
+
+.button-reservation:hover {
+  background-color: #604e43;
+}
+
+.button-reservation:focus {
+  background-color: #503d32;
+}
+
+.rating {
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: #f1f1f1;
+}
+
+.icon-star {
+  background-image: url("../img/star.svg");
+  background-repeat: no-repeat;
+  
+  display: inline-block;
+  width: 19px;
+  height: 17px;
+  padding-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
